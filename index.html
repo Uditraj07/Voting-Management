@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VotingSystem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+            <h1>VotingSystem</h1>
+            <div class="formPage">
+                <form action="">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                    <div class="dropdown">
+                        <label for="mentors">Mentors:</label>
+                        <select name="mentors" id="mentors">
+                            <option value="Rohit">Rohit</option>
+                            <option value="Bapi">Bapi</option>
+                            <option value="Rahul">Rahul</option>
+                        </select>
+                    </div>
+                    <button type="submit">submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="result">
+            <div class="rahul">
+                <h1>Rahul</h1>
+                <div >
+                <h3 style="display: inline;">Count:</h3>
+                <span class="ans" style="display: inline;">0</span>
+                </div>
+                <ul></ul>
+            </div>
+            <div class="rohit">
+                <h1>Rohit</h1>
+                <div >
+                    <h3 style="display: inline;">Count:</h3>
+                    <span class="ans" style="display: inline;">0</span>
+                </div>
+                <ul></ul>
+            </div>
+            <div class="bapi">
+                <h1>Bapi</h1>
+                <div >
+                    <h3 style="display: inline;">Count:</h3>
+                    <span class="ans" style="display: inline;">0</span>
+                </div>
+                <ul></ul>
+            </div>
+        </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+<script src="script.js"></script>
+</html>
